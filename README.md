@@ -1,6 +1,6 @@
 # WebRtcExample
 
-透過Socket.io作為Signaling Server協助RTCPeerConnection做訊息交換，達成簡單的WebRTC聊天室
+透過Socket.io作為Signaling Server協助RTCPeerConnection做訊息交換，達成簡單的WebRTC聊天室並且擁有房間功能
 
 ## Getting Started
 
