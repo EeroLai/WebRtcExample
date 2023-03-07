@@ -132,9 +132,8 @@ function onCreateAnswerError(pc, id, error) {
 socket.on('created', async function (data) {
     console.log('created: ' + JSON.stringify(data));
     socketId = data.id;
-    //设置room id
     roomId = data.room;
-    //根据回应peers 循环创建WebRtcPeerConnection & 发送offer消息 [from,to,room,sdp]
+    //根據回應的peers 循環創建WebRtcPeerConnection & 發送offer訊息 [from,to,room,sdp]
     for (let i = 0; i < data.peers.length; i++) {
         var otherSocketId = data.peers[i].id;
         var pc = getOrCreateRtcConnect(otherSocketId);
