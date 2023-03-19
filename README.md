@@ -25,10 +25,3 @@ npm run dev
 ```bash
 npm run start
 ```
-## ToDo
-
-- [X] 後端基本架構
-- [X] 後端功能
-- [X] 前端畫面
-- [X] 前端功能
- 
